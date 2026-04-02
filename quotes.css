@@ -1,0 +1,39 @@
+body {
+  background-color: tan;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 16px;
+}
+
+#quotes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.quote-card {
+  background-color: white;
+  width: fit-content;
+  display: inline-block;
+  padding: 16px;
+  margin: 12px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.quote-card p:first-child {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.quote-card p:last-child {
+  margin: 0;
+  color: gray;
+  font-style: italic;
+}
